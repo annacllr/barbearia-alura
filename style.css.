@@ -87,6 +87,7 @@ form {
 }
 
 form label {
+    form label, form p {
     display:block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -98,6 +99,18 @@ form input {
     padding: 10px 25px;
     width: 50%;
 }
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
 footer {
     text-align: center;
     background: url("img/bg.jpg");
